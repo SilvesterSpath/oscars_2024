@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Codystar&display=swap');
+
+.score_container {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.objScore {
+  text-align: center;
+}
+
+.nameTeam {
+  font-family: 'Codystar', cursive;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+.pointScore {
+  font-size: 42pt;
+  font-weight: 600;
+}
+
+.panelScore {
+  display: block;
+  color: #ca4d6d;
+}
+
+.incrementer {
+  margin: 3px;
+  min-width: 20px;
+  color: black;
+  background: #ca4d6d;
+  border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+  .panel {
+    flex-direction: column;
+    padding-right: 45%;
+  }
+}
