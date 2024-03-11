@@ -31,7 +31,7 @@ function CategoryLinks() {
         <Link className='a' to='/'>
           <GiPodium size={30} />
         </Link>
-        <p className='b' style={{ color: '#020F38' }}>
+        <p className='b' style={{ color: '#c58696' }}>
           standing
         </p>
       </div>
@@ -39,7 +39,7 @@ function CategoryLinks() {
         <Link className='a' to='/movies'>
           <BiMoviePlay size={30} />
         </Link>
-        <p className='b' style={{ color: '#020F38' }}>
+        <p className='b' style={{ color: '#c58696' }}>
           movie
         </p>
       </div>
@@ -47,7 +47,7 @@ function CategoryLinks() {
         <Link className='a' to='/actor'>
           <MdRecentActors size={30} />
         </Link>
-        <p className='b' style={{ color: '#020F38' }}>
+        <p className='b' style={{ color: '#c58696' }}>
           actor
         </p>
       </div>
@@ -55,7 +55,7 @@ function CategoryLinks() {
         <Link className='a' to='/actor_sup'>
           <MdOutlineRecentActors size={30} />
         </Link>
-        <p className='b' style={{ color: '#020F38' }}>
+        <p className='b' style={{ color: '#c58696' }}>
           actorSup
         </p>
       </div>
@@ -63,7 +63,7 @@ function CategoryLinks() {
         <Link className='a' to='/actress'>
           <ImWoman size={30} />
         </Link>
-        <p className='b' style={{ color: '#020F38' }}>
+        <p className='b' style={{ color: '#c58696' }}>
           actress
         </p>
       </div>
@@ -71,7 +71,7 @@ function CategoryLinks() {
         <Link className='a' to='/actress_sup'>
           <IoMdWoman size={30} />
         </Link>
-        <p className='b' style={{ color: '#020F38' }}>
+        <p className='b' style={{ color: '#c58696' }}>
           actressSup
         </p>
       </div>
@@ -79,7 +79,7 @@ function CategoryLinks() {
         <Link className='a' to='/director'>
           <GiDirectorChair size={30} />
         </Link>
-        <p className='b' style={{ color: '#020F38' }}>
+        <p className='b' style={{ color: '#c58696' }}>
           director
         </p>
       </div>
@@ -87,7 +87,7 @@ function CategoryLinks() {
         <Link className='a' to='/animated'>
           <MdAnimation size={30} />
         </Link>
-        <p className='b' style={{ color: '#020F38' }}>
+        <p className='b' style={{ color: '#c58696' }}>
           animated
         </p>
       </div>
@@ -95,7 +95,7 @@ function CategoryLinks() {
         <Link className='a' to='/cinematography'>
           <FaPhotoVideo size={30} />
         </Link>
-        <p className='b' style={{ color: '#020F38' }}>
+        <p className='b' style={{ color: '#c58696' }}>
           cinematogr
         </p>
       </div>
@@ -103,7 +103,7 @@ function CategoryLinks() {
         <Link className='a' to='/costume'>
           <MdDesignServices size={30} />
         </Link>
-        <p className='b' style={{ color: '#020F38' }}>
+        <p className='b' style={{ color: '#c58696' }}>
           costume
         </p>
       </div>
@@ -111,7 +111,7 @@ function CategoryLinks() {
         <Link className='a' to='/doc'>
           <FaFeatherAlt size={30} />
         </Link>
-        <p className='b' style={{ color: '#020F38' }}>
+        <p className='b' style={{ color: '#c58696' }}>
           docum
         </p>
       </div>
@@ -119,7 +119,7 @@ function CategoryLinks() {
         <Link className='a' to='/docs'>
           <GiFeather size={30} />
         </Link>
-        <p className='b' style={{ color: '#020F38' }}>
+        <p className='b' style={{ color: '#c58696' }}>
           doc short
         </p>
       </div>
@@ -127,7 +127,7 @@ function CategoryLinks() {
         <Link className='a' to='/editing'>
           <RiScissors2Fill size={30} />
         </Link>
-        <p className='b' style={{ color: '#020F38' }}>
+        <p className='b' style={{ color: '#c58696' }}>
           editing
         </p>
       </div>
@@ -135,7 +135,7 @@ function CategoryLinks() {
         <Link className='a' to='/internat'>
           <FaYandexInternational size={30} />
         </Link>
-        <p className='b' style={{ color: '#020F38' }}>
+        <p className='b' style={{ color: '#c58696' }}>
           internat
         </p>
       </div>
@@ -143,7 +143,7 @@ function CategoryLinks() {
         <Link className='a' to='/makeup'>
           <GiHairStrands size={30} />
         </Link>
-        <p className='b' style={{ color: '#020F38' }}>
+        <p className='b' style={{ color: '#c58696' }}>
           makeup
         </p>
       </div>
@@ -151,7 +151,7 @@ function CategoryLinks() {
         <Link className='a' to='/score'>
           <GiMusicalScore size={30} />
         </Link>
-        <p className='b' style={{ color: '#020F38' }}>
+        <p className='b' style={{ color: '#c58696' }}>
           score
         </p>
       </div>
@@ -159,7 +159,7 @@ function CategoryLinks() {
         <Link className='a' to='/song'>
           <BsMusicNote size={30} />
         </Link>
-        <p className='b' style={{ color: '#020F38' }}>
+        <p className='b' style={{ color: '#c58696' }}>
           song
         </p>
       </div>
@@ -167,7 +167,7 @@ function CategoryLinks() {
         <Link className='a' to='/design'>
           <SiAltiumdesigner size={30} />
         </Link>
-        <p className='b' style={{ color: '#020F38' }}>
+        <p className='b' style={{ color: '#c58696' }}>
           design
         </p>
       </div>
@@ -175,7 +175,7 @@ function CategoryLinks() {
         <Link className='a' to='/anims'>
           <MdOutlineAnimation size={20} />
         </Link>
-        <p className='b' style={{ color: '#020F38' }}>
+        <p className='b' style={{ color: '#c58696' }}>
           anim_short
         </p>
       </div>
@@ -183,7 +183,7 @@ function CategoryLinks() {
         <Link className='a' to='/short'>
           <GiFilmSpool size={30} />
         </Link>
-        <p className='b' style={{ color: '#020F38' }}>
+        <p className='b' style={{ color: '#c58696' }}>
           short
         </p>
       </div>
@@ -191,7 +191,7 @@ function CategoryLinks() {
         <Link className='a' to='/sound'>
           <AiOutlineSound size={30} />
         </Link>
-        <p className='b' style={{ color: '#020F38' }}>
+        <p className='b' style={{ color: '#c58696' }}>
           sound
         </p>
       </div>
@@ -199,7 +199,7 @@ function CategoryLinks() {
         <Link className='a' to='/effects'>
           <HiSparkles size={30} />
         </Link>
-        <p className='b' style={{ color: '#020F38' }}>
+        <p className='b' style={{ color: '#c58696' }}>
           effects
         </p>
       </div>
@@ -207,7 +207,7 @@ function CategoryLinks() {
         <Link className='a' to='/adapted'>
           <RiFilePaper2Fill size={30} />
         </Link>
-        <p className='b' style={{ color: '#020F38' }}>
+        <p className='b' style={{ color: '#c58696' }}>
           adapted
         </p>
       </div>
@@ -215,7 +215,7 @@ function CategoryLinks() {
         <Link className='a' to='/original'>
           <FaRegNewspaper size={30} />
         </Link>
-        <p className='b' style={{ color: '#020F38' }}>
+        <p className='b' style={{ color: '#c58696' }}>
           original
         </p>
       </div>
@@ -223,7 +223,7 @@ function CategoryLinks() {
         <Link className='a' to='/summary'>
           <MdOutlineSummarize size={30} />
         </Link>
-        <p className='b' style={{ color: '#020F38' }}>
+        <p className='b' style={{ color: '#c58696' }}>
           summary
         </p>
       </div>

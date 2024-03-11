@@ -4,6 +4,7 @@
 
 :root {
   --primary-color: #fbec91; /* Orangey yellow */
+  --primary-color2: #fae662; /* Orangey yellow */
   --secondary-color: #ca4d6d; /* Dark gray */
   --dark-text-color: #011d43; /* Black */
   --light-text-color: #045f82; /* Black */
@@ -231,7 +232,7 @@ input:focus {
 /* FIX: Remove position: absolute to keep about icon at the bottom of the
  * document */
 .about-link a {
-  color: var(--primary-color);
+  color: var(--primary-color2);
   cursor: pointer;
 }
 
