@@ -1,12 +1,12 @@
 import VoteForm from '../components/VoteForm';
-import VoteListEffects from '../components/VoteListEffects';
+import VoteList from '../components/VoteList';
 import { bestEffects } from '../data/data';
 
 function Effects() {
   return (
     <>
       <VoteForm category='effects' nominees={bestEffects} />
-      <VoteListEffects />
+      <VoteList category='effects' />
     </>
   );
 }

@@ -26,7 +26,7 @@ export const FeedbackProvider = ({ children }) => {
           {
             id: 1,
             text: 'Example name',
-            actor: 'Example actor',
+            actors: 'Example actor',
           },
         ];
   });
@@ -104,7 +104,7 @@ export const FeedbackProvider = ({ children }) => {
           {
             id: 1,
             text: 'Example name',
-            director: 'Example director',
+            directors: 'Example directors',
           },
         ];
   });
@@ -390,11 +390,11 @@ export const FeedbackProvider = ({ children }) => {
         setDirectors(directors.filter((item) => item.id !== id));
       if (type === 'actress')
         setActress(actress.filter((item) => item.id !== id));
-      if (type === 'actress-sup')
+      if (type === 'actress_sup')
         setActressSup(actress_sup.filter((item) => item.id !== id));
       if (type === 'animated')
         setAnimated(animated.filter((item) => item.id !== id));
-      if (type === 'actor-sup')
+      if (type === 'actor_sup')
         setActorSup(actor_sup.filter((item) => item.id !== id));
       if (type === 'cinematography')
         setCinematography(cinematography.filter((item) => item.id !== id));
@@ -437,9 +437,9 @@ export const FeedbackProvider = ({ children }) => {
     }
     if (type === 'movies') setMovies([...movies, newFeedback]);
     if (type === 'actors') setActors([...actors, newFeedback]);
-    if (type === 'actor-sup') setActorSup([...actor_sup, newFeedback]);
+    if (type === 'actor_sup') setActorSup([...actor_sup, newFeedback]);
     if (type === 'actress') setActress([...actress, newFeedback]);
-    if (type === 'actress-sup') setActressSup([...actress_sup, newFeedback]);
+    if (type === 'actress_sup') setActressSup([...actress_sup, newFeedback]);
     if (type === 'directors') setDirectors([...directors, newFeedback]);
     if (type === 'animated') setAnimated([...animated, newFeedback]);
     if (type === 'cinematography')

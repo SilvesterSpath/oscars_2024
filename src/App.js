@@ -42,7 +42,7 @@ function App() {
             <Route exact path='/movies' element={<Movie />} />
           </Routes>
           <Routes>
-            <Route path='/actor' element={<Actor />} />
+            <Route path='/actors' element={<Actor />} />
           </Routes>
           <Routes>
             <Route path='/actor_sup' element={<ActorSup />} />
@@ -54,7 +54,7 @@ function App() {
             <Route path='/actress_sup' element={<ActressSup />} />
           </Routes>
           <Routes>
-            <Route path='/director' element={<Director />} />
+            <Route path='/directors' element={<Director />} />
           </Routes>
           <Routes>
             <Route path='/animated' element={<Animated />} />

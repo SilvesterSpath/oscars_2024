@@ -1,12 +1,12 @@
 import VoteForm from '../components/VoteForm';
-import VoteListAdapted from '../components/VoteListAdapted';
+import VoteList from '../components/VoteList';
 import { bestAdapted } from '../data/data';
 
 function Adapted() {
   return (
     <>
       <VoteForm category='adapted' nominees={bestAdapted} />
-      <VoteListAdapted />
+      <VoteList category='adapted' />
     </>
   );
 }

@@ -1,12 +1,12 @@
 import VoteForm from '../components/VoteForm';
-import VoteListSound from '../components/VoteListSound';
+import VoteList from '../components/VoteList';
 import { bestSound } from '../data/data';
 
 function Sound() {
   return (
     <>
       <VoteForm category='sound' nominees={bestSound} />
-      <VoteListSound />
+      <VoteList category='sound' />
     </>
   );
 }

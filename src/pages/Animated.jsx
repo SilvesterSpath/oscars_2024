@@ -1,12 +1,12 @@
 import VoteForm from '../components/VoteForm';
-import VoteListAnimated from '../components/VoteListAnimated';
+import VoteList from '../components/VoteList';
 import { bestAnimated } from '../data/data';
 
 function Actor() {
   return (
     <>
       <VoteForm category='animated' nominees={bestAnimated} />
-      <VoteListAnimated />
+      <VoteList category='animated' />
     </>
   );
 }

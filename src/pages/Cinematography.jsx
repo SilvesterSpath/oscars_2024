@@ -1,12 +1,12 @@
 import VoteForm from '../components/VoteForm';
-import VoteListCinematography from '../components/VoteListCinematography';
+import VoteList from '../components/VoteList';
 import { bestCinematography } from '../data/data';
 
 function Actor() {
   return (
     <>
       <VoteForm category='cinematography' nominees={bestCinematography} />
-      <VoteListCinematography />
+      <VoteList category='cinematography' />
     </>
   );
 }

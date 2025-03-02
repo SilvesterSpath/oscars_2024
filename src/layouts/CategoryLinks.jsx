@@ -44,7 +44,7 @@ function CategoryLinks() {
         </p>
       </div>
       <div className='links'>
-        <Link className='a' to='/actor'>
+        <Link className='a' to='/actors'>
           <MdRecentActors size={30} />
         </Link>
         <p className='b' style={{ color: '#c58696' }}>
@@ -76,11 +76,11 @@ function CategoryLinks() {
         </p>
       </div>
       <div className='links'>
-        <Link className='a' to='/director'>
+        <Link className='a' to='/directors'>
           <GiDirectorChair size={30} />
         </Link>
         <p className='b' style={{ color: '#c58696' }}>
-          director
+          directors
         </p>
       </div>
       <div className='links'>

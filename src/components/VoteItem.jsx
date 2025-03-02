@@ -10,9 +10,9 @@ function VoteItem({ item, type }) {
   function renderSwitch(type) {
     switch (type) {
       case 'movies':
-        return item.movie;
+        return item.movies;
       case 'actors':
-        return item.actor;
+        return item.actors;
       case 'actress':
         return item.actress;
       case 'actress_sup':
@@ -20,7 +20,7 @@ function VoteItem({ item, type }) {
       case 'actor_sup':
         return item.actor_sup;
       case 'directors':
-        return item.director;
+        return item.directors;
       case 'animated':
         return item.animated;
       case 'cinematography':

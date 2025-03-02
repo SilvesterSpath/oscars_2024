@@ -40,6 +40,8 @@ function VoteForm({ category, nominees }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log(text, category, selectedNominee);
+
     if (text.trim().length > 1) {
       const newFeedback = {
         text,
