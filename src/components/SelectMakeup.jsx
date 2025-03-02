@@ -4,11 +4,11 @@ import FeedbackContext from '../context/FeedbackContext';
 function SelectMakeup({ select }) {
   const [selected, setSelected] = useState(null);
   const bestMakeup = [
-    'GOLDA',
-    'MAESTRO',
-    'OPPENHEIMER',
-    'POOR THINGS',
-    'SOCIETY OF THE SNOW',
+    'The Brutalist',
+    'Conclave',
+    'Emilia Pérez',
+    'Wicked',
+    'The Wild Robot',
   ];
 
   const handleChange2 = (e) => {

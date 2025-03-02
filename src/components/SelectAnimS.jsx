@@ -4,11 +4,11 @@ import FeedbackContext from '../context/FeedbackContext';
 function RatingSelectActor({ select }) {
   const [selected, setSelected] = useState(null);
   const bestAnimS = [
-    'LETTER TO A PIG',
-    'NINETY-FIVE SENSES',
-    'OUR UNIFORM',
-    'PACHYDERME',
-    'WAR IS OVER! INSPIRED BY THE MUSIC OF JOHN & YOKO',
+    'Beautiful Men',
+    'In the Shadow of the Cypress',
+    'Magic Candies',
+    'Wander to Wonder',
+    'Yuck!',
   ];
 
   const handleChange2 = (e) => {

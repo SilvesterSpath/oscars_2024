@@ -4,11 +4,11 @@ import FeedbackContext from '../context/FeedbackContext';
 function SelectDirectors({ select }) {
   const [selected, setSelected] = useState(null);
   const bestEditing = [
-    'ANATOMY OF A FALL',
-    'THE HOLDOVERS',
-    'KILLERS OF THE FLOWER MOON',
-    'OPPENHEIMER',
-    'POOR THINGS',
+    'Anora',
+    'The Brutalist',
+    'Conclave',
+    'Emilia Pérez',
+    'Wicked',
   ];
 
   const handleChange2 = (e) => {

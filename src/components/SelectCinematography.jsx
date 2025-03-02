@@ -4,11 +4,11 @@ import FeedbackContext from '../context/FeedbackContext';
 function SelectCinematography({ select }) {
   const [selected, setSelected] = useState(null);
   const bestCinematography = [
-    'EL CONDE',
-    'KILLERS OF THE FLOWER MOON',
-    'MAESTRO',
-    'OPPENHEIMER',
-    'POOR THINGS',
+    'The Brutalist',
+    'Dune: Part Two',
+    'Emilia Pérez',
+    'Maria',
+    'Nosferatu',
   ];
 
   const handleChange2 = (e) => {

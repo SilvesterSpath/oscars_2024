@@ -4,11 +4,11 @@ import FeedbackContext from '../context/FeedbackContext';
 function SelectDocumentary({ select }) {
   const [selected, setSelected] = useState(null);
   const bestDoc = [
-    "BOBI WINE: THE PEOPLE'S PRESIDENT",
-    'THE ETERNAL MEMORY',
-    'FOUR DAUGHTERS',
-    'TO KILL A TIGER',
-    '20 DAYS IN MARIUPOL',
+    'Black Box Diaries',
+    'No Other Land',
+    'Porcelain War',
+    "Soundtrack to a Coup d'Etat",
+    'Sugarcane',
   ];
 
   const handleChange2 = (e) => {

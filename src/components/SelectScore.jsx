@@ -4,11 +4,11 @@ import FeedbackContext from '../context/FeedbackContext';
 function SelectMakeup({ select }) {
   const [selected, setSelected] = useState(null);
   const bestScore = [
-    'AMERICAN FICTION',
-    'INDIANA JONES AND THE DIAL OF DESTINY',
-    'KILLERS OF THE FLOWER MOON',
-    'OPPENHEIMER',
-    'POOR THINGS',
+    'The Brutalist',
+    'Conclave',
+    'Emilia Pérez',
+    'Wicked',
+    'The Wild Robot',
   ];
 
   const handleChange2 = (e) => {

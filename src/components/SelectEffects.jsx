@@ -4,11 +4,11 @@ import FeedbackContext from '../context/FeedbackContext';
 function RatingSelectActor({ select }) {
   const [selected, setSelected] = useState(null);
   const bestEffects = [
-    'THE CREATOR',
-    'GODZILLA MINUS ONE',
-    'GUARDIANS OF THE GALAXY 3',
-    'MISSION: IMP DEAD RECKONING',
-    'SPIDER-MAN: NO WAY HOME',
+    'Alien: Romulus',
+    'Better Man',
+    'Dune: Part Two',
+    'Kingdom of the Planet of the Apes',
+    'Wicked',
   ];
 
   const handleChange2 = (e) => {

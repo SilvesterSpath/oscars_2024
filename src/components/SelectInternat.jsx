@@ -4,11 +4,11 @@ import FeedbackContext from '../context/FeedbackContext';
 function SelectDirectors({ select }) {
   const [selected, setSelected] = useState(null);
   const bestInternat = [
-    'IO CAPITANO',
-    'PERFECT DAYS',
-    'SOCIETY OF THE SNOW',
-    "THE TEACHERS' LOUNGE",
-    'THE ZONE OF INTEREST',
+    "I'm Still Here",
+    'The Girl with the Needle',
+    'Emilia Pérez',
+    'The Seed of the Sacred Fig',
+    'Flow',
   ];
 
   const handleChange2 = (e) => {

@@ -4,11 +4,11 @@ import FeedbackContext from '../context/FeedbackContext';
 function OriginalScreenPlay({ select }) {
   const [selected, setSelected] = useState(null);
   const bestOriginal = [
-    'ANATOMY OF A FALL',
-    'THE HOLDOVERS',
-    'MAESTRO',
-    'MAY DECEMBER',
-    'PAST LIVES',
+    'ANORA',
+    'THE BRUTALIST',
+    'A REAL PAIN',
+    'SEPTEMBER 5',
+    'THE SUBSTANCE',
   ];
 
   const handleChange2 = (e) => {

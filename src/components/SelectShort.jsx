@@ -4,11 +4,11 @@ import FeedbackContext from '../context/FeedbackContext';
 function RatingSelectActor({ select }) {
   const [selected, setSelected] = useState(null);
   const bestShort = [
-    'THE AFTER',
-    'INVINCIBLE',
-    'KNIGHT OF FORTUNE',
-    'RED, WHITE AND BLUE',
-    'THE WONDERFUL STORY OF HENRY SUGAR',
+    'A Lien',
+    'Anuja',
+    "I'm Not a Robot",
+    'The Last Ranger',
+    'The Man Who Could Not Remain Silent',
   ];
 
   const handleChange2 = (e) => {

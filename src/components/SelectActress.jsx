@@ -4,11 +4,11 @@ import FeedbackContext from '../context/FeedbackContext';
 function SelectActress({ select }) {
   const [selected, setSelected] = useState(null);
   const bestActress = [
-    'Annette Bening',
-    'Lily Gladstone',
-    'Sandra Hüller',
-    'Carey Mulligan',
-    'Emma Stone',
+    'Cynthia Erivo',
+    'Karla Sofía Gascón',
+    'Mikey Madison',
+    'Demi Moore',
+    'Fernanda Torres',
   ];
 
   const handleChange2 = (e) => {

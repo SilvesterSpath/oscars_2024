@@ -4,10 +4,11 @@ import FeedbackContext from '../context/FeedbackContext';
 function RatingSelectActor({ select }) {
   const [selected, setSelected] = useState(null);
   const bestActors = [
-    'Bradley Cooper',
+    'Adrien Brody',
+    'Timothée Chalamet',
     'Colman Domingo',
-    'Paul Giamatti',
-    'Jeffrey Wright',
+    'Ralph Fiennes',
+    'Sebastian Stan',
   ];
 
   const handleChange2 = (e) => {

@@ -4,11 +4,11 @@ import FeedbackContext from '../context/FeedbackContext';
 function SelectActorSup({ select }) {
   const [selected, setSelected] = useState(null);
   const bestActorsSup = [
-    'Sterling K. Brown',
-    'Robert De Niro',
-    'Robert Downey Jr.',
-    'Ryan Gosling',
-    'Mark Ruffalo',
+    'Yura Borisov',
+    'Kieran Culkin',
+    'Edward Norton',
+    'Guy Pearce',
+    'Jeremy Strong',
   ];
 
   const handleChange2 = (e) => {

@@ -4,11 +4,11 @@ import FeedbackContext from '../context/FeedbackContext';
 function SelectMakeup({ select }) {
   const [selected, setSelected] = useState(null);
   const bestSong = [
-    'The Fire Inside',
-    "I'm Just Ken",
-    'It Never Went Away',
-    'Wahzhazhe',
-    'What Was I Made For?',
+    'El Mal',
+    'The Journey',
+    'Like A Bird',
+    'Mi Camino',
+    'Never Too Late',
   ];
 
   const handleChange2 = (e) => {

@@ -4,11 +4,11 @@ import FeedbackContext from '../context/FeedbackContext';
 function SelectCinematography({ select }) {
   const [selected, setSelected] = useState(null);
   const bestCostume = [
-    'BARBIE',
-    'KILLERS OF THE FLOWER MOON',
-    'NAPOLEON',
-    'OPPENHEIMER',
-    'POOR THINGS',
+    'A Complete Unknown',
+    'Conclave',
+    'Gladiator II',
+    'Nosferatu',
+    'Wicked',
   ];
 
   const handleChange2 = (e) => {

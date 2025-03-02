@@ -4,11 +4,11 @@ import FeedbackContext from '../context/FeedbackContext';
 function SelectAnimated({ select }) {
   const [selected, setSelected] = useState(null);
   const bestAnimated = [
-    'THE BOY AND THE HERON',
-    'ELEMENTAL',
-    'NIMONA',
-    'ROBOT DREAMS',
-    'SPIDER-MAN: ACROSS THE SPIDER-VERSE',
+    'Flow',
+    'Inside Out 2',
+    'Memoir of a Snail',
+    'Wallace & Gromit: Vengeance Most Fowl',
+    'The Wild Robot',
   ];
 
   const handleChange2 = (e) => {

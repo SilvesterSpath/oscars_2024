@@ -4,11 +4,11 @@ import FeedbackContext from '../context/FeedbackContext';
 function SelectDirectors({ select }) {
   const [selected, setSelected] = useState(null);
   const bestDirectors = [
-    'Justine Triet ',
-    'Martin Scorsese',
-    'Christopher Nolan',
-    'Yorgos Lanthimos',
-    'Jonathan Glazer',
+    'Sean Baker',
+    'Brady Corbet',
+    'James Mangold',
+    'Jacques Audiard',
+    'Coralie Fargeat',
   ];
 
   const handleChange2 = (e) => {

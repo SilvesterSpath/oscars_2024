@@ -4,11 +4,11 @@ import FeedbackContext from '../context/FeedbackContext';
 function RatingSelectActor({ select }) {
   const [selected, setSelected] = useState(null);
   const bestDesign = [
-    'EL CONDE',
-    'KILLERS OF THE FLOWER MOON',
-    'MAESTRO',
-    'OPPENHEIMER',
-    'POOR THINGS',
+    'The Brutalist',
+    'Conclave',
+    'Dune: Part Two',
+    'Nosferatu',
+    'Wicked',
   ];
 
   const handleChange2 = (e) => {

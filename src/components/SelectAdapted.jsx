@@ -4,11 +4,11 @@ import FeedbackContext from '../context/FeedbackContext';
 function RatingSelectActor({ select }) {
   const [selected, setSelected] = useState(null);
   const bestAdapted = [
-    'AMERICAN FICTION',
-    'BARBIE',
-    'OPPENHEIMER',
-    'POOR THINGS',
-    'THE ZONE OF INTEREST',
+    'A Complete Unknown',
+    'Conclave',
+    'Emilia Pérez',
+    'Nickel Boys',
+    'Sing Sing',
   ];
 
   const handleChange2 = (e) => {

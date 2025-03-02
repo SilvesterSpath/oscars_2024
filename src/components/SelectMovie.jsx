@@ -4,15 +4,16 @@ import FeedbackContext from '../context/FeedbackContext';
 function RatingSelect({ select }) {
   const [selected, setSelected] = useState(null);
   const bestPicture = [
-    'AMERICAN FICTION',
-    'ANATOMY OF A FALL',
-    'BARBIE',
-    'THE HOLDOVERS',
-    'MAESTRO',
-    'OPPENHEIMER',
-    'PAST LIVES',
-    'POOR THINGS',
-    'THE ZONE OF INTEREST',
+    'Anora',
+    'The Brutalist',
+    'A Complete Unknown',
+    'Conclave',
+    'Dune: Part Two',
+    'Emilia Pérez',
+    "I'm Still Here",
+    'Nickel Boys',
+    'The Substance',
+    'Wicked',
   ];
 
   const handleChange1 = (e) => {

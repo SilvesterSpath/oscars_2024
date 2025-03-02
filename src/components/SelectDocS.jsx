@@ -4,11 +4,11 @@ import FeedbackContext from '../context/FeedbackContext';
 function SelectDocumentaryShort({ select }) {
   const [selected, setSelected] = useState(null);
   const bestDocS = [
-    'THE ABCS OF BOOK BANNING',
-    'THE BARBER OF LITTLE ROCK',
-    'ISLAND IN BETWEEN',
-    'THE LAST REPAIR SHOP',
-    'NǍI NAI & WÀI PÓ',
+    'Death by Numbers',
+    'I Am Ready, Warden',
+    'Incident',
+    'Instruments of a Beating Heart',
+    'he Only Girl in the Orchestra',
   ];
 
   const handleChange2 = (e) => {

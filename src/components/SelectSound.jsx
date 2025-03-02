@@ -4,11 +4,11 @@ import FeedbackContext from '../context/FeedbackContext';
 function RatingSelectActor({ select }) {
   const [selected, setSelected] = useState(null);
   const bestSound = [
-    'The Creator',
-    'Maestro',
-    'Mission: Imp Dead Reckoning',
-    'Oppenheimer',
-    'The Zone of Interest',
+    'A Complete Unknown',
+    'Dune: Part Two',
+    'Emilia Pérez',
+    'Wicked',
+    'The Wild Robot',
   ];
 
   const handleChange2 = (e) => {

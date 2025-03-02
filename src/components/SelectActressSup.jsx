@@ -4,11 +4,11 @@ import FeedbackContext from '../context/FeedbackContext';
 function SelectActressSup({ select }) {
   const [selected, setSelected] = useState(null);
   const bestActressSup = [
-    'Emily Blunt',
-    'Danielle Brooks',
-    'America Ferrera',
-    'Jodie Foster',
-    "Da'Vine Joy Randolph",
+    'Monica Barbaro',
+    'Ariana Grande',
+    'Felicity Jones',
+    'Isabella Rossellini',
+    'Zoe Saldaña',
   ];
 
   const handleChange2 = (e) => {
