@@ -1,13 +1,14 @@
-import VoteFormScore from '../components/VoteFormScore';
+import VoteForm from '../components/VoteForm';
 import VoteListScore from '../components/VoteListScore';
+import { bestScore } from '../data/data';
 
 function Score() {
-    return (
-    <>     
-      <VoteFormScore />
+  return (
+    <>
+      <VoteForm category='score' nominees={bestScore} />
       <VoteListScore />
     </>
-  )
+  );
 }
 
-export default Score
+export default Score;

@@ -1,13 +1,14 @@
-import VoteFormDirector from '../components/VoteFormDirector';
+import VoteForm from '../components/VoteForm';
 import VoteListDirector from '../components/VoteListDirector';
+import { bestDirectors } from '../data/data';
 
 function Actor() {
-    return (
-    <>     
-      <VoteFormDirector />
+  return (
+    <>
+      <VoteForm category='director' nominees={bestDirectors} />
       <VoteListDirector />
     </>
-  )
+  );
 }
 
-export default Actor
+export default Actor;

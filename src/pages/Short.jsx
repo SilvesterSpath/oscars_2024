@@ -1,13 +1,14 @@
-import VoteFormShort from '../components/VoteFormShort';
+import VoteForm from '../components/VoteForm';
 import VoteListShort from '../components/VoteListShort';
+import { bestShort } from '../data/data';
 
 function Short() {
-    return (
-    <>     
-      <VoteFormShort />
+  return (
+    <>
+      <VoteForm category='short' nominees={bestShort} />
       <VoteListShort />
     </>
-  )
+  );
 }
 
-export default Short
+export default Short;

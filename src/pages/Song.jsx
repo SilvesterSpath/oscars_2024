@@ -1,13 +1,14 @@
-import VoteFormSong from '../components/VoteFormSong';
+import VoteForm from '../components/VoteForm';
 import VoteListSong from '../components/VoteListSong';
+import { bestSong } from '../data/data';
 
 function Song() {
-    return (
-    <>     
-      <VoteFormSong />
+  return (
+    <>
+      <VoteForm category='song' nominees={bestSong} />
       <VoteListSong />
     </>
-  )
+  );
 }
 
-export default Song
+export default Song;

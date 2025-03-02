@@ -1,22 +1,8 @@
 import { useState, useContext, useEffect } from 'react';
 import FeedbackContext from '../context/FeedbackContext';
 
-function SelectAnimated({ select }) {
+function SelectNominee({ select, category, nominees }) {
   const [selected, setSelected] = useState(null);
-  const bestAnimated = [
-    'Flow',
-    'Inside Out 2',
-    'Memoir of a Snail',
-    'Wallace & Gromit: Vengeance Most Fowl',
-    'The Wild Robot',
-  ];
-
-  const handleChange2 = (e) => {
-    console.log('that', e.target);
-    setSelected(parseInt(e.currentTarget.id));
-    select(e.currentTarget.value);
-  };
-
   const { feedbackEditState } = useContext(FeedbackContext);
 
   useEffect(() => {
@@ -25,16 +11,21 @@ function SelectAnimated({ select }) {
     }
   }, [feedbackEditState]);
 
+  const handleChange = (e) => {
+    setSelected(parseInt(e.currentTarget.id));
+    select(e.currentTarget.value);
+  };
+
   return (
     <ul className='rating'>
-      {bestAnimated.map((item, idx) => (
-        <li key={`rating-${idx + 1}`}>
+      {nominees.map((item, idx) => (
+        <li key={`${category}-rating-${idx + 1}`}>
           <input
             type='radio'
             id={idx}
-            name='animated'
+            name={category}
             value={item}
-            onChange={handleChange2}
+            onChange={handleChange}
             checked={selected === idx}
           />
           <label htmlFor={idx}>{item}</label>
@@ -44,4 +35,4 @@ function SelectAnimated({ select }) {
   );
 }
 
-export default SelectAnimated;
+export default SelectNominee;

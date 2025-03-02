@@ -1,13 +1,14 @@
 import VoteListActressSup from '../components/VoteListActressSup';
-import VoteFormActressSup from '../components/VoteFormActressSup';
+import VoteForm from '../components/VoteForm';
+import { bestActressSup } from '../data/data';
 
 function ActressSup() {
-    return (
+  return (
     <>
-      <VoteFormActressSup />
+      <VoteForm category='actressSup' nominees={bestActressSup} />
       <VoteListActressSup />
     </>
-  )
+  );
 }
 
-export default ActressSup
+export default ActressSup;

@@ -1,13 +1,14 @@
-import VoteFormEffects from '../components/VoteFormEffects';
+import VoteForm from '../components/VoteForm';
 import VoteListEffects from '../components/VoteListEffects';
+import { bestEffects } from '../data/data';
 
 function Effects() {
-    return (
-    <>     
-      <VoteFormEffects />
+  return (
+    <>
+      <VoteForm category='effects' nominees={bestEffects} />
       <VoteListEffects />
     </>
-  )
+  );
 }
 
-export default Effects
+export default Effects;

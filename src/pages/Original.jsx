@@ -1,13 +1,14 @@
-import VoteFormOriginal from '../components/VoteFormOriginal';
+import VoteForm from '../components/VoteForm';
 import VoteListOriginal from '../components/VoteListOriginal';
+import { bestOriginal } from '../data/data';
 
 function Original() {
-    return (
-    <>     
-      <VoteFormOriginal />
+  return (
+    <>
+      <VoteForm category='original' nominees={bestOriginal} />
       <VoteListOriginal />
     </>
-  )
+  );
 }
 
-export default Original
+export default Original;

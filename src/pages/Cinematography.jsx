@@ -1,13 +1,14 @@
-import VoteFormCinematography from '../components/VoteFormCinematography';
+import VoteForm from '../components/VoteForm';
 import VoteListCinematography from '../components/VoteListCinematography';
+import { bestCinematography } from '../data/data';
 
 function Actor() {
-    return (
-    <>     
-      <VoteFormCinematography />
+  return (
+    <>
+      <VoteForm category='cinematography' nominees={bestCinematography} />
       <VoteListCinematography />
     </>
-  )
+  );
 }
 
-export default Actor
+export default Actor;

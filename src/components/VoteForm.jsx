@@ -1,40 +1,38 @@
 import { useState, useContext, useEffect } from 'react';
 import Card from '../shared/Card';
 import Button from '../shared/Button';
-import SelectActressSup from './SelectActressSup';
 import FeedbackContext from '../context/FeedbackContext';
+import SelectComponent from './SelectComponent';
 
-function VoteFormActressSup() {
+function VoteForm({ category, nominees }) {
   const [text, setText] = useState('');
-  const [btnDisabled, setBtnDisables] = useState(false);
-  const [message, setMessage] = useState(
-    'Select a nominant and send your vote'
-  );
-  const [actress_sup, setActressSup] = useState('');
+  const [btnDisabled, setBtnDisabled] = useState(false);
+  const [message, setMessage] = useState('Select a nominee and send your vote');
+  const [selectedNominee, setSelectedNominee] = useState('');
 
   const { addItem, feedbackEditState, updateFeedback } =
     useContext(FeedbackContext);
 
   useEffect(() => {
     if (feedbackEditState.edit) {
-      setBtnDisables(false);
+      setBtnDisabled(false);
       setText(feedbackEditState.item.text);
-      setActressSup(feedbackEditState.item.actress);
+      setSelectedNominee(feedbackEditState.item[category]);
     }
   }, [
     feedbackEditState.edit,
     feedbackEditState.item.text,
-    feedbackEditState.item.actress,
+    category,
+    feedbackEditState.item,
   ]);
 
   const handleTextChange = (e) => {
-    console.log(text);
     if (text.length > 0) {
-      setBtnDisables(false);
+      setBtnDisabled(false);
       setMessage(null);
     } else {
-      setBtnDisables(false);
-      setMessage('Select a nominant and send your vote');
+      setBtnDisabled(false);
+      setMessage('Select a nominee and send your vote');
     }
 
     setText(e.target.value);
@@ -45,12 +43,12 @@ function VoteFormActressSup() {
     if (text.trim().length > 1) {
       const newFeedback = {
         text,
-        actress_sup,
+        [category]: selectedNominee,
       };
       if (feedbackEditState.edit) {
         updateFeedback(feedbackEditState.item.id, newFeedback);
       } else {
-        addItem(newFeedback, 'actress-sup');
+        addItem(newFeedback, category);
         setText('');
       }
     }
@@ -59,9 +57,11 @@ function VoteFormActressSup() {
   return (
     <Card>
       <form onSubmit={handleSubmit}>
-        <h2>Oscar nominations for best supporting actress:</h2>
-        <SelectActressSup
-          select={(actress_sup) => setActressSup(actress_sup)}
+        <h2>Oscar nominations for best {category.replace('-', ' ')}:</h2>
+        <SelectComponent
+          select={(nominee) => setSelectedNominee(nominee)}
+          category={category}
+          nominees={nominees}
         />
         <div className='input-group'>
           <input
@@ -69,7 +69,7 @@ function VoteFormActressSup() {
             placeholder='Write your name or choose from dropdown..'
             value={text}
             list='names'
-            onChange={(e) => handleTextChange(e)}
+            onChange={handleTextChange}
           />
           <datalist id='names'>
             <option value='Szilvi' />
@@ -85,4 +85,4 @@ function VoteFormActressSup() {
   );
 }
 
-export default VoteFormActressSup;
+export default VoteForm;

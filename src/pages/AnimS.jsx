@@ -1,13 +1,14 @@
-import VoteFormAnimS from '../components/VoteFormAnimS';
+import VoteForm from '../components/VoteForm';
 import VoteListAnimS from '../components/VoteListAnimS';
+import { bestAnimS } from '../data/data';
 
 function AnimS() {
-    return (
-    <>     
-      <VoteFormAnimS />
+  return (
+    <>
+      <VoteForm category='animS' nominees={bestAnimS} />
       <VoteListAnimS />
     </>
-  )
+  );
 }
 
-export default AnimS
+export default AnimS;
