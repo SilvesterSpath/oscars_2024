@@ -16,7 +16,7 @@ function Home() {
         }}
       >
         <h1>OSCARS</h1>
-        <p>2024</p>
+        <p>2025</p>
       </div>
     </>
   );
